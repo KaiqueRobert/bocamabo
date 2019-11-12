@@ -1,0 +1,143 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body{
+font-family: 'Comfortaa', cursive;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*STANDARD*/
+article, footer{
+    padding: 10px 20px;
+}
+
+.bold{
+    font-weight: 700 !important;
+}
+
+a{
+    padding: 10px 20px;
+    background: #ccc;
+    border-radius: 40px;
+    display: block;
+    text-decoration: none;
+}
+
+.alcenter{
+    text-align: center;
+}
+
+h1, h2, h3, p{
+    margin: 15px 0;
+}
+
+.border{
+    border: 3px solid #ccc;
+}
+
+.displayflex{
+    display: flex;
+    align-content: flex-start;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    flex-grow: 2;
+
+}
+
+.radius{
+    border-radius: 100%;
+}
+
+/*STYLES*/
+
+.borderblue{
+    border-color: #0B3948;
+}
+
+.borderyellow{
+    border-color: #FFBD00;
+}
+
+
+.bgblue{
+    background: #0B3948;
+}
+
+.bgyellow{
+    background: #FFBD00;
+}
+
+.ftblue{
+    color: #0B3948;
+}
+
+.ftyellow{
+    color: #FFBD00;
+}
+
+.parte3 h1{
+    font-size: 1.7em;
+}
+
+.parte3 img{
+    display: flex;
+    margin: 0 auto;
+}
+
+.parte4 img{
+    width: 125px;
+    height: 125px;
+    margin-bottom: 20px;
+}
+
+/*PARTE 5*/
+
+.parte5 h1{
+    font-size: 2em;
+}
+
+/*
+Criado por Kaique Robert 
+https://github.com/KaiqueRobert
+*/
