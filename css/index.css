@@ -1,0 +1,87 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body{    
+    line-height:1;
+}
+
+.back{
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.contenthome{ 
+    padding: 10px 50px;
+    background: #f8f8f8;
+    -webkit-box-shadow: 0px 0px 22px 0px rgba(191,191,191,1);
+    -moz-box-shadow: 0px 0px 22px 0px rgba(191,191,191,1);
+    box-shadow: 0px 0px 22px 0px rgba(191,191,191,1);
+    border-radius: 5px !important;
+}
+
+h1,h2{
+    margin: 25px 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+p{
+    font-weight: 400;
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+.imgresult img{
+    width: 255px;
+    margin: 0 4px;
+    border-radius: 10px;
+}
+
+.al-center{
+    text-align: center;
+}
+
+.garantia{
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+}
+
+a{
+    display: block;
+    padding: 20px 10px;
+    margin: 20px 0;
+    text-decoration: none;
+    color: #000;
+    background: #24d024;
+    font-weight: 700;
+    border-radius: 5px;
+    text-align: center;
+}
+
