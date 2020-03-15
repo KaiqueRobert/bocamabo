@@ -23,8 +23,34 @@ time, mark, audio, video {
     background:transparent;
 }
 
+/*Flex Box*/
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex .flex-1{
+    flex-basis: 100%;
+}
+
+.flex .flex-2{
+    flex-basis: calc(50% - 40px);
+    margin: 20px;
+}
+
+.flex .flex-3{
+    flex-basis: calc(33.33% - 30px);
+    margin: 15px;
+}
+
+.flex .flex-4{
+    flex-basis: calc(25% - 20px);
+    margin: 10px;
+}
+
 body{    
     line-height:1;
+    background: url('../img/background.png');
 }
 
 .back{
@@ -85,3 +111,23 @@ a{
     text-align: center;
 }
 
+header{
+    width: 100%;
+    background-attachment: fixed !important;
+    background-position: right !important;
+    align-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+}
+
+header img{
+    
+}
+
+.receitas{background: url("../img/receitas.jpg");}
+.exercicio{background: url("../img/exercicio.jpg");}
+.audio{background: url("../img/audio.jpg");}
+.whats{background: url("../img/whatsapp.jpg");}
+.facebook{background: url("../img/facebook.png");}
+
+header h2{color: #fff; background: rgba(0, 0, 0, 0.2); padding: 10px;}
